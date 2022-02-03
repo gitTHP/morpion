@@ -22,7 +22,7 @@ class Player
                     if value[:value]==""
                         value[:value]=@symbol
                     else 
-                        puts "cas deja rempli"
+                        puts "case deja rempli"
                         choose_pos(board)
                     end
 
